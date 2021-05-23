@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9t2vvu');
+  src:  url('fonts/icomoon.eot?9t2vvu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9t2vvu') format('truetype'),
+    url('fonts/icomoon.woff?9t2vvu') format('woff'),
+    url('fonts/icomoon.svg?9t2vvu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clean-theme:before {
+  content: "\e900";
+  color: white;
+  font-size: 40px;
+  background-color: #2aacc8;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.icon-download-psd:before {
+  content: "\e901";
+  color: white;
+  font-size: 25px;
+}
+.icon-fully-layerd-psd:before {
+  content: "\e902";
+  color: white;
+  font-size: 40px;
+  background-color: #2aacc8;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.icon-ready-for-coding:before {
+  content: "\e903";
+  color: white;
+  font-size: 40px;
+  background-color: #2aacc8;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.icon-responsive-design:before {
+  content: "\e904";
+  color: white;
+  font-size: 40px;
+  background-color: #2aacc8;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.icon-arrow-down:before {
+  content: "\ea50";
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.icon-arrow-right:before {
+  content: "\ea51";
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #e7ebf1;
+	height: 120px;
+}
+
+.logo-nav-block {
+	height: 120px;
+}
+
+.logo {
+	height: 37px;
+	width: 147px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+	height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  position: relative;
+  height: 40px;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 13px;
+  line-height: 35px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #000;
+  border-top: 5px solid transparent;
+  padding: 0 12px;
+}
+
+.nav-items-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 208px;
+  background: white;
+  padding: 10px 5px 0 5px;
+}
+
+.nav-item:hover .nav-item-link {
+	border-color: #2aabc7;
+}
+
+.nav-items-dropdown > .nav-item > .nav-item-link {
+	line-height: 36px;
+  	text-transform: none;
+  	border-top: 1px solid #e7e7e7;
+  	font-weight: normal;
+  	padding-left: 10px;
+}
+
+.nav-items-dropdown .nav-item:first-child .nav-item-link {
+	border: none;
+}
+
+.nav-items-dropdown:last-child {
+	border-bottom: 5px solid #2aabc7;
+	padding-bottom: 10px;
+}
+
+.nav-item-link:hover {
+  color: #2aacc8;
+  border-color: #2aabc7;
+}
+
+.nav-item:hover {
+	background: white;
+}
+
+.nav-item:hover .nav-items-dropdown {
+  display: block;
+}
+
+.banner-block {
+	height: 500px;
+	width: 100%;
+	background-color: #81e3ed;
+	padding-top: 30px; 
+}
+
+.slogan-wrapper {
+	height: 440px;
+	background-color: #e05936;
+	background-image: url('images/Bubbles.png'), url('images/Cup.png');
+	background-repeat: no-repeat;
+	background-position: top right, center center;
+}
+
+.slogan {
+	width: 369px;
+	font-size: 50px;
+	color: #fff;
+	font-weight: 700;
+	font-family: "Lato";
+	padding-left: 62px;
+	padding-top: 102px;
+}
+
+.offers-block {
+	height: 300px;
+	background-color: #e7ebf1;
+}
+
+.block-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.offers-wrapper {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.offer {
+	font-family: "Roboto";
+	width: 220px;
+	height: 190px;
+}
+
+.offer-name {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.offer-description {
+	font-size: 13px;
+	line-height: 20px;
+	color: #363636;
+	margin-bottom: 30px;
+}
+
+.more-info {
+	color: #2aacc8;
+	text-decoration: none;
+}
+
+.download-block {
+	height: 230px;
+	display: flex;
+	align-items: center;
+}
+
+.download-block-wrapper {
+	height: 140px;
+	background-color: #e8fcfe;
+	border: 1px solid #81e3ed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.download-block-paragraph {
+	width: 613px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #363636;
+	font-family: "Roboto";
+}
+
+.download-button {
+	height: 60px;
+	width: 240px;
+	border: 1px solid #2aacc8;
+	border-radius: 8px;
+	text-transform: uppercase;
+	filter: drop-shadow(0px 2px 1.5px rgba(0,0,0,0.2));
+	background-image: linear-gradient(0deg, #29abc7 0%, #5fcddd 15%, #71d9e5 50%, #81e3ed 100%);
+	font-size: 18px;
+	line-height: 20px;
+	color: #0d0707;
+	font-weight: bold;
+	font-family: "Roboto";
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+}
+
+footer {
+	height: 100px;
+	background-color: #e7ebf1;
+}
+
+.footer-wrapper {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-paragraph {
+	width: 645px;
+	font-size: 13px;
+	line-height: 18px;
+	color: #363636;
+	font-family: "Roboto";
+}
+
