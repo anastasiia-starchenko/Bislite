@@ -99,6 +99,11 @@ header {
 	width: 147px;
 }
 
+.logo:hover {
+	height: 45px;
+	width: 155px;
+}
+
 ul {
   list-style: none;
 }
@@ -246,6 +251,10 @@ ul {
 	text-decoration: none;
 }
 
+.more-info:hover {
+	color: #e05936;
+}
+
 .download-block {
 	height: 230px;
 	display: flex;
@@ -287,6 +296,10 @@ ul {
 	justify-content: space-around;
 	align-items: center;
 	cursor: pointer;
+}
+
+.download-button:hover {
+	background-image: linear-gradient(0deg, #81e3ed 100%, #71d9e5 50%, #5fcddd 15%, #29abc7 0%);
 }
 
 footer {
